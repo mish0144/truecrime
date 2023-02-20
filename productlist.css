@@ -1,1 +1,52 @@
 
+
+
+
+.productlistgrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 320px));
+    gap: 40px;
+    justify-content: space-evenly;
+    margin-bottom: 10%;
+  }
+  
+
+
+  .smallProduct {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 15%;
+    min-height: 418px;
+}
+
+.smallProduct :last-child {
+    margin-top: auto;
+  }
+
+
+  
+  
+  article {
+    background-image: url(img/file.png);
+    background-size: cover;
+  }
+  
+  article img {
+    width: 100%;
+    margin-bottom: 4%;
+  }
+
+
+  a {
+    color: black;
+    font-size: 1.3rem;
+  }
+  
+  
+  
+  
+
+ 

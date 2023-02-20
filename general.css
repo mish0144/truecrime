@@ -1,1 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
+  body {
+    background-image: url(img/truecrimebaggrund.jpg);
+  }
+  
+  main {
+    max-width: 1200px;
+    margin-inline: auto;
+  }
+
+
+  
+  .breadcrums {
+    color: white;
+    margin-inline: auto;
+  }
+
+  
+  h1 {
+    text-align: right;
+    margin-right: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 5%;
+
+  }
+  
+  h2 {
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    font-size: 2rem;
+    margin-bottom: 3%;
+  }
+  
+  p {
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    font-size: 1rem;
+    margin-bottom: 3%;
+  }
