@@ -1,1 +1,46 @@
+body {
+    background-image: url("/pictures/test.png");
+    background-size: cover;
+    background-color: #F2ECDC;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   }
 
+.grid_1-1-1-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    margin: 10%;
+    height: max-content;
+}
+
+.fileimg {
+    grid-column: span 1/3;
+    grid-row: 1/6;
+}
+
+#h1{ 
+    grid-column: 2 / 3;
+    grid-row: 1;
+    margin-left: 10%;
+}
+#img{
+    grid-column: 2 / 3;
+    grid-row: 1;
+    margin-top: 17%;
+    margin-left: 7%;
+}
+
+#p{
+    grid-column: span 1 / 3;
+    grid-row: 2;
+    margin-left: 7%;
+    margin-right: 5%;
+}
+
+
+#botton{
+    grid-column: span 1 / 3;
+    grid-row: 3;
+    padding-left: 5%;
+}
