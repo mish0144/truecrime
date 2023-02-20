@@ -3,16 +3,8 @@
   margin: 0%;
   text-decoration: none;
 }
-#category {
-  background-image: url(img/baggrund.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  width: 100vw;
-  height: 100vh;
-}
 
-#category section {
+section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   padding: 10rem 3rem 3rem 6rem;
