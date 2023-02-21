@@ -6,9 +6,20 @@
 
 section {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  padding: 10rem 3rem 3rem 6rem;
-  gap: 4rem;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 320px));
+  gap: 35px;
+  justify-content: space-evenly;
+}
+
+
+h1 {
+  text-align: right;
+  margin-right: 2%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 3rem;
+  margin-bottom: 3%;
+  font-weight: 100;
 }
 
 /* Dokumentar serier */
@@ -27,77 +38,77 @@ section {
 
 .docu-button-div {
   margin-inline: auto;
-  margin: 3em 2em 0 5em;
-  border: none;
   grid-column: span 1/2;
   grid-row: span 1/2;
   z-index: 1;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 1.2vw;
+  font-size: 1.2rem;
   color: black;
+  margin-top: 11%;
+  width: 60%;
+  text-align: center;
 }
 /* Dokumentar miniserier */
 .mini-docu-button-div {
   margin-inline: auto;
-  margin: 3.1em 3em 0 6em;
-  border: none;
   grid-column: span 1/2;
   grid-row: span 1/2;
   z-index: 1;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 1.12vw;
+  font-size: 1.2rem;
   color: black;
+  margin-top: 11%;
+  width: 60%;
+  text-align: center;
 }
 
 /* Dokumentar film */
 .docufilm-button-div {
   margin-inline: auto;
-  margin: 2.8em 2em 0 5em;
-  border: none;
   grid-column: span 1/2;
   grid-row: span 1/2;
   z-index: 1;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 1.2vw;
+  font-size: 1.2rem;
   color: black;
+  margin-top: 11%;
+  width: 60%;
+  text-align: center;
 }
 
 /* Filmatisering serier */
 .docufilma_serier-button-div {
   margin-inline: auto;
-  margin: 3.3em 2em 0 4.7em;
-  border: none;
   grid-column: span 1/2;
   grid-row: span 1/2;
   z-index: 1;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 1.1vw;
+  font-size: 1.2rem;
   color: black;
+  margin-top: 11%;
+  width: 60%;
+  text-align: center;
 }
 /* Filmatisering film */
 .docufilma_film-button-div {
   margin-inline: auto;
-  margin: 3.3em 2em 0 4.7em;
-  border: none;
   grid-column: span 1/2;
   grid-row: span 1/2;
   z-index: 1;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 1.1vw;
+  font-size: 1.2rem;
   color: black;
+  margin-top: 11%;
+  width: 60%;
+  text-align: center;
 }
 
 /* Podcast*/
 .podcast-button-div {
   margin-inline: auto;
-  margin-top: 3.8em;
-  border: none;
   grid-column: span 1/2;
   grid-row: span 1/2;
   z-index: 1;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 1.2vw;
+  font-size: 1.2rem;
   color: black;
+  margin-top: 11%;
+  width: 60%;
+  text-align: center;
 }
 
 a:hover {
