@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Lag_1" data-name="Lag 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1729 1453.12">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        fill: #ffab00;
+      }
+
+      .cls-5 {
+        fill: #cab095;
+      }
+
+      .cls-6 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-7 {
+        clip-path: url(#clippath-2);
+      }
+
+      .cls-8 {
+        opacity: .98;
+      }
+    </style>
+    <clipPath id="clippath">
+      <path class="cls-5" d="m489.86,516.09v-74.12c0-5.49,4.45-9.94,9.94-9.94l285.06.06c21.51,0,49,20,59,39l-.17-.11h371.97c11.71,0,21.2,9.49,21.2,21.2v23.91H489.86Z"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <path class="cls-1" d="m510.62,211.06h708.94c10.1,0,18.29,8.2,18.29,18.29v489.42c0,10.1-8.2,18.29-18.29,18.29H507.15c-10.1,0-18.29-8.2-18.29-18.29V232.83c0-12.01,9.75-21.77,21.77-21.77Z"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <path class="cls-1" d="m510.62,495.09h708.94c10.1,0,18.29,8.2,18.29,18.29v489.42c0,10.1-8.2,18.29-18.29,18.29H507.15c-10.1,0-18.29-8.2-18.29-18.29v-485.94c0-12.01,9.75-21.77,21.77-21.77Z"/>
+    </clipPath>
+    <image id="image" width="996" height="770" xlink:href="../files.png"/>
+  </defs>
+  <g>
+    <g>
+      <path class="cls-5" d="m489.86,516.09v-74.12c0-5.49,4.45-9.94,9.94-9.94l285.06.06c21.51,0,49,20,59,39l-.17-.11h371.97c11.71,0,21.2,9.49,21.2,21.2v23.91H489.86Z"/>
+      <g class="cls-2">
+        <g id="Brs5VL.tif">
+          <image id="Layer_0" data-name="Layer 0" width="180" height="1260" transform="translate(246.86 562.13) rotate(-90) scale(.98)" xlink:href="Tegnebræt 21.png"/>
+        </g>
+        <g class="cls-8">
+          <g class="cls-6">
+            <use transform="translate(373.1 114.06) scale(.98 .94)" xlink:href="#image"/>
+          </g>
+        </g>
+        <rect class="cls-3" x="634.38" y="421.56" width="453" height="655" transform="translate(111.82 1609.94) rotate(-90)"/>
+        <rect class="cls-4" x="735.88" y="913.06" width="292" height="573" transform="translate(-317.68 2081.44) rotate(-90)"/>
+      </g>
+    </g>
+    <g class="cls-8">
+      <g class="cls-7">
+        <use transform="translate(373.1 398.09) scale(.98 .94)" xlink:href="#image"/>
+      </g>
+    </g>
+  </g>
+  <rect class="cls-3" x="647.86" y="415.06" width="432" height="680" transform="translate(108.8 1618.92) rotate(-90)"/>
+</svg>
