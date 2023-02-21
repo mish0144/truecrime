@@ -9,7 +9,7 @@ body {
 .grid_1-1-1-1{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     margin: 10%;
     height: max-content;
 }
@@ -57,7 +57,7 @@ body {
 }
 
 .p_product{
-    grid-column: span 4 / 5;
+    grid-column: 1 / span 4;
     grid-row: 2/3;
     margin-left: 7%;
     margin-right: 5%;
