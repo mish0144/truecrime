@@ -34,7 +34,7 @@
   
 
 
-  .smallProduct {
+  #smallProduct {
     display: flex;
     flex-direction: column;
     padding-left: 5%;
@@ -44,7 +44,7 @@
     min-height: 418px;
 }
 
-.smallProduct :last-child {
+#smallProduct :last-child {
     margin-top: auto;
   }
 
