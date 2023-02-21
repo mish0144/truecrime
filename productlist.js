@@ -21,22 +21,22 @@ function hentData() {
     console.log(url)
 }
 
-const temp = document.querySelector("#smallProduct").content;
-const main = document.querySelector("main");
+const temp = document.querySelector("template").content;
+const productList = document.querySelector(".productlistgrid");
 
 function visData(json) {
   json.forEach((product) => {
     const klon = temp.cloneNode(true);
-    klon.querySelector("#titel").textContent = product.titel;
-    klon.querySelector("#type").textContent = product.type;
-    klon.querySelector("#platform").textContent = product.platform;
-    klon.querySelector("#length").textContent = product.length;
-    klon.querySelector("img").src = product.photo;
+    klon.querySelector(".titel").textContent = product.titel;
+    klon.querySelector(".type").textContent = product.type;
+    klon.querySelector(".platform").textContent = product.platform;
+    klon.querySelector(".length").textContent = product.length;
+    klon.querySelector("img").src = "anbefalinger/" + product.photo;
     klon.querySelector("a").href = "produkt.html?id=" + product.id;
 
 
 
-    main.appendChild(klon);
+    productList.appendChild(klon);
   });
 }
 
