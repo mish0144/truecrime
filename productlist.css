@@ -44,7 +44,7 @@
     min-height: 418px;
 }
 
-#smallProduct :last-child {
+article :last-child {
     margin-top: auto;
   }
 
@@ -52,8 +52,14 @@
   
   
   article {
+    display: flex;
+    flex-direction: column;
     background-image: url(img/file.png);
     background-size: cover;
+  }
+
+  article :last-child {
+    margin-top: auto;
   }
   
   article img {
