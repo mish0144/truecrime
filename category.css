@@ -9,6 +9,8 @@ section {
   grid-template-columns: repeat(auto-fill, minmax(150px, 320px));
   gap: 35px;
   justify-content: space-evenly;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
 
@@ -115,4 +117,13 @@ a:hover {
   scale: 101%;
   transition-duration: 0.2s;
   animation: ease-in-out;
+}
+
+
+@media (max-width: 800px) {
+
+  h1 {
+    text-align: center;
+  }
+
 }
