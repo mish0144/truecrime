@@ -11,8 +11,10 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    margin: 10%;
     height: max-content;
+    margin-left: 10%;
+    margin-right: 10%;
+
 }
 
 .fileimg {
@@ -23,6 +25,7 @@ body {
 }
 
 .h1_product { 
+    font-family: American Typewriter;
     grid-column: 1/ span 2;
     grid-row: 1/ span 2;
     margin-left: 9%;

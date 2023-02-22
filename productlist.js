@@ -32,7 +32,7 @@ function visData(json) {
     klon.querySelector(".platform").textContent = product.platform;
     klon.querySelector(".length").textContent = product.length;
     klon.querySelector("img").src = "anbefalinger/" + product.photo;
-    klon.querySelector("a").href = "produkt.html?id=" + product.id;
+    klon.querySelector("a").href = "product.html?id=" + product.id;
 
 
 
