@@ -70,14 +70,20 @@ article :last-child {
     width: 100%;
     margin-bottom: 4%;
     aspect-ratio: 20/14;
+    filter: drop-shadow(2px 2px 5px black);
   }
 
 
-  a {
+  .more {
     color: black;
     font-size: 1.3rem;
     font-weight: 700;
     cursor: pointer;
+    text-decoration: underline;
+  }
+
+  .a_fileimg {
+    text-decoration: none;
   }
   
   

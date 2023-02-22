@@ -90,6 +90,7 @@ body {
     margin-left: 28%;
     margin-right: 8%;
     width: 200%;
+    filter: drop-shadow(3px 3px 5px black);
 }
 
 .p_product{
