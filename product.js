@@ -1,23 +1,33 @@
-const urlParams = new URLSearchParams(window.location.search)
-const id = urlParams.get("id")
+const urlParams = new URLSearchParams(window.location.search);
+const id = urlParams.get("id");
+const url = `https://truecrime-74a2.restdb.io/rest/truecrime?q={"id":"${id}"}`;
 
-const url = `https://kea-alt-del.dk/t7/api/products/${id}`;
-const imagePath = `https://kea-alt-del.dk/t7/images/webp/640/${id}.webp`;
+
+const options = { 
+    headers: {
+        'x-apikey': "63f4c433478852088da68526"
+
+    }
+};
+
+
 
 function hentData() {
-    fetch(url)
+    fetch(url, options)
     .then((respons) => respons.json())
-    .then(visProdukt);
+    .then(products => visProdukt(products[0]));
+    console.log(url)
+    console.log(id)
 }
 
 function visProdukt(produkt) {
-    console.log(produkt);
-    document.querySelector(".h2_product").textContent = "Titel: " + product.titel;
-    document.querySelector("img").src = "anbefalinger/" + product.photo;
-    document.querySelector("#farve").textContent = produkt.basecolour;
-    document.querySelector("#id").textContent = produkt.id;
-    document.querySelector("#brand").textContent = produkt.brandname;
-    document.querySelector("#type").textContent = produkt.articletype;
+    document.querySelector(".h1_product").textContent = produkt.titel;
+    document.querySelector(".h2_product").textContent = "Titel: " + produkt.titel;
+    document.querySelector(".cover").src = "anbefalinger/" + produkt.photo;
+    document.querySelector(".h2_product2").textContent = "Årstal: " + produkt.year;
+    document.querySelector(".h2_product3").textContent = produkt.length;
+    document.querySelector(".p_product").textContent = produkt.description;
+    document.querySelector(".plink").a = produkt.link;
 
 }
 

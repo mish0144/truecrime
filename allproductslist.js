@@ -1,6 +1,5 @@
 const urlParams = new URLSearchParams(window.location.search);
-const type = urlParams.get("type");
-const url = `https://truecrime-74a2.restdb.io/rest/truecrime?q={"type":"${type}"}`;
+const url = `https://truecrime-74a2.restdb.io/rest/truecrime`;
 
 
 const options = { 
@@ -11,15 +10,12 @@ const options = {
 };
 
 
-document.querySelector("h1").textContent = type;
-
 
 function hentData() {
   fetch(url, options)
   .then((respons) => respons.json())
   .then(visData);
   console.log(url)
-  console.log(type)
 }
 
 const temp = document.querySelector("template").content;
