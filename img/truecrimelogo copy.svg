@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff400;
+      }
+
+      .cls-2 {
+        letter-spacing: -.07em;
+      }
+
+      .cls-3 {
+        font-family: HelveticaNeue-CondensedBold, 'Helvetica Neue';
+        font-size: 124.32px;
+        font-weight: 700;
+      }
+
+      .cls-4 {
+        isolation: isolate;
+        opacity: .9;
+      }
+    </style>
+  </defs>
+  <polygon points="-310.84 296.67 -217.65 282.6 46.31 421.42 -62.47 437.85 -310.84 296.67"/>
+  <g>
+    <g>
+      <rect class="cls-1" x="-55.07" y="143.31" width="2013.65" height="176.7" transform="translate(-23.93 144.79) rotate(-8.59)"/>
+      <polygon class="cls-4" points="29.72 280.83 122.92 266.66 386.82 406.25 278.12 422.74 29.72 280.83"/>
+      <polygon class="cls-4" points="-171.78 311.36 -78.58 297.26 185.32 437.1 76.62 453.62 -171.78 311.36"/>
+      <polygon class="cls-4" points="221.22 251.34 316.1 237.26 584.75 376.91 474.09 393.41 221.22 251.34"/>
+      <polygon class="cls-4" points="418.22 221.38 512.17 207.26 778.17 347.24 668.6 363.78 418.22 221.38"/>
+      <polygon class="cls-4" points="614.82 191.86 708.79 177.66 974.86 317.45 865.27 333.96 614.82 191.86"/>
+      <polygon class="cls-4" points="802.82 163.84 896.83 149.66 1163.01 289.29 1053.37 305.79 802.82 163.84"/>
+      <polygon class="cls-4" points="992.82 133.01 1087.48 118.66 1355.52 260 1245.12 276.7 992.82 133.01"/>
+      <polygon class="cls-4" points="1186.82 105.86 1280.34 91.66 1545.13 231.46 1436.06 247.98 1186.82 105.86"/>
+      <polygon class="cls-4" points="1393.32 74.18 1487 59.96 1752.36 199.99 1643 216.53 1393.32 74.18"/>
+      <polygon class="cls-4" points="1582.12 45.4 1676.29 31.16 1942.92 171.36 1833 187.93 1582.12 45.4"/>
+      <polygon class="cls-4" points="1784.12 15.26 1877.32 1.16 2141.22 139.96 2032.42 156.36 1784.12 15.26"/>
+      <path class="cls-1" d="m78.96,311.19l447.5-67.1c4.2-.59,6.6,6.45,5.37,15.83l-10.2,78.38c-1.24,9.38-5.6,17.44-9.8,18.03l-447.4,67.12c-4.2.59-6.6-6.45-5.37-15.83l10.2-78.38c1.12-9.28,5.53-17.34,9.71-18.05Z"/>
+      <path class="cls-1" d="m912.44,183.9l447.5-67.1c4.2-.59,6.6,6.45,5.37,15.83l-10.2,78.38c-1.24,9.38-5.6,17.44-9.8,18.03l-447.4,67.12c-4.2.59-6.6-6.45-5.37-15.83l10.2-78.38c1.12-9.28,5.53-17.34,9.71-18.05Z"/>
+      <path class="cls-1" d="m1711.44,60.9L2158.94-6.2c4.2-.59,6.6,6.45,5.37,15.83l-10.2,78.38c-1.24,9.38-5.6,17.44-9.8,18.03l-447.4,67.12c-4.2.59-6.6-6.45-5.37-15.83l10.2-78.38c1.12-9.28,5.53-17.34,9.71-18.05Z"/>
+    </g>
+    <text class="cls-3" transform="translate(103.76 406.77) rotate(-8.59) scale(.61 1)"><tspan class="cls-2" x="0" y="0">T</tspan><tspan x="50.48" y="0">rue Crime</tspan></text>
+    <text class="cls-3" transform="translate(933.95 282.77) rotate(-8.59) scale(.61 1)"><tspan class="cls-2" x="0" y="0">T</tspan><tspan x="50.48" y="0">rue Crime</tspan></text>
+    <text class="cls-3" transform="translate(1727.52 163.36) rotate(-8.59) scale(.61 1)"><tspan class="cls-2" x="0" y="0">T</tspan><tspan x="50.48" y="0">rue Crime</tspan></text>
+  </g>
+</svg>
