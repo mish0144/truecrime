@@ -97,7 +97,7 @@ body {
         grid-column: 1/ span 3;
         grid-row: 1;
         margin-top: 10%;
-        margin-left: 21.5%;
+        margin-left: 25%;
         width: 75%;
         position: relative;
     }
@@ -105,42 +105,33 @@ body {
         grid-column: 1 / span 4;
         grid-row: 1;
         margin-top: 50%;
-        margin-left: 20%;
+        margin-left: 18.5%;
         position: relative;
     }
     
     .h2_product2{
-        grid-column: 1 / span 4;
-        grid-row: 1;
-        margin-top: 57%;
-        margin-left: 20%;
-        position: relative;
+        display: none;
     }
     .h2_product3{
-        grid-column: 1 / span 4;
-        grid-row: 1;
-        margin-top: 64%;
-        margin-left: 20%;
-        position: relative;
+        display: none;
     }
     
     .p_product{
         grid-column: 1 / span 4;
         grid-row: 2;
-        margin-top: 0%;
+        margin-top: 3%;
         margin-left: 18%;
         margin-right: 18%;
         position: relative;
     }
     
-
     .plink{
-        grid-column: 3/ span 1;
+        grid-column: 1/ span 3;
         grid-row: 1;
         font-weight: bold;
         color: black;
-        margin-top: 240%;
-        margin-left: 40%;
+        margin-top: 80%;
+        margin-left: 25%;
         position: relative;
     }
   }
