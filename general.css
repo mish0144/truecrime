@@ -37,8 +37,8 @@
 
 
   header {
-      display: flex;
-      justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
   }
 
   nav ul {
@@ -70,12 +70,18 @@ nav ul li a:hover {
 font-weight: 600;
 }
 
-.logo {
+
+header a {
   width: 100%;
-  margin-left: -37%;
 }
 
-@media (max-width: 800px) {
+.logo {
+  width: 60%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+@media (max-width: 850px) {
   header {
     flex-direction: column;
   }
@@ -95,5 +101,13 @@ font-weight: 600;
   h1 {
     text-align: center;
   }
+
+  .logo {
+    margin-left: 0%;
+  }
+
+
+
+
 
 }
