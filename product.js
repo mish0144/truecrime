@@ -27,7 +27,7 @@ function visProdukt(produkt) {
     document.querySelector(".h2_product2").textContent = "Årstal: " + produkt.year;
     document.querySelector(".h2_product3").textContent = produkt.length;
     document.querySelector(".p_product").textContent = produkt.description;
-    document.querySelector(".plink").a = produkt.link;
+    document.querySelector(".platformlink").href = produkt.link;
 
 }
 
