@@ -8,12 +8,10 @@
     background-image: url(img/truecrimebaggrund.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-  }
-  
-  main {
     max-width: 1200px;
     margin-inline: auto;
   }
+  
 
 
   
@@ -22,4 +20,80 @@
     margin-inline: auto;
   }
 
-  
+
+  @font-face {
+    font-family: American Typewriter;
+    src: url(font/american_typewriter_regular-webfont.woff2);
+  }
+
+  h2 {
+    font-family: American Typewriter;
+  }
+
+  p {
+    font-family: American Typewriter;
+  }
+
+
+
+  header {
+      display: flex;
+      justify-content: space-between;
+  }
+
+  nav ul {
+    display: flex;
+    list-style: none;
+    padding-bottom: 70px;
+    padding-top: 70px;
+}
+
+
+nav ul li {
+  width: 250px;
+  text-align: center;
+  Padding: 15px;
+  background-color: grey;
+  opacity: 0.5;
+  border-radius: 25px;
+  margin-right: 5%;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-family: American Typewriter;
+  color: white;
+}
+
+nav ul li a:hover {
+font-weight: 600;
+}
+
+.logo {
+  width: 100%;
+  margin-left: -37%;
+}
+
+@media (max-width: 800px) {
+  header {
+    flex-direction: column;
+  }
+
+  nav ul {
+    flex-direction: column;
+    padding-bottom: 30px;
+    padding-top: 0px;
+    align-items: center;
+  }
+
+  nav ul li {
+    margin-bottom: 5%;
+    margin-right: 0%;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+}
