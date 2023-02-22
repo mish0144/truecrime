@@ -8,7 +8,6 @@
     background-image: url(img/truecrimebaggrund.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    max-width: 1200px;
     margin-inline: auto;
   }
   
@@ -29,6 +28,7 @@
   h2 {
     font-family: American Typewriter;
   }
+
 
   p {
     font-family: American Typewriter;
@@ -52,9 +52,9 @@
 nav ul li {
   width: 250px;
   text-align: center;
-  Padding: 15px;
+  padding: 10px;
   background-color: grey;
-  opacity: 0.5;
+  opacity: 0.7;
   border-radius: 25px;
   margin-right: 5%;
 }

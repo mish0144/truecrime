@@ -4,6 +4,7 @@ body {
     background-color: #F2ECDC;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    max-width: 1200px;
    }
 
 .grid_1-1-1-1{

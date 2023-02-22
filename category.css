@@ -4,6 +4,11 @@
   text-decoration: none;
 }
 
+
+body {
+  max-width: 1200px;
+}
+
 section {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 320px));
