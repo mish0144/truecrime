@@ -4,7 +4,6 @@
   text-decoration: none;
 }
 
-
 body {
   max-width: 1200px;
 }
@@ -18,7 +17,6 @@ section {
   margin-right: 2%;
 }
 
-
 h1 {
   text-align: right;
   margin-right: 2%;
@@ -28,6 +26,7 @@ h1 {
   margin-bottom: 3%;
   font-weight: 100;
 }
+h1
 
 /* Dokumentar serier */
 .docu-series img {
@@ -124,11 +123,8 @@ a:hover {
   animation: ease-in-out;
 }
 
-
 @media (max-width: 800px) {
-
   h1 {
     text-align: center;
   }
-
 }
