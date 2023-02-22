@@ -21,12 +21,14 @@ function hentData() {
 }
 
 function visProdukt(produkt) {
-    document.querySelector(".h1_product").textContent = produkt.titel;
-    document.querySelector(".h2_product").textContent = "Titel: " + produkt.titel;
+    document.querySelector(".h2_product").textContent = produkt.titel;
+    document.querySelector(".h1_product").textContent = "Titel: " + produkt.titel;
     document.querySelector(".cover").src = "anbefalinger/" + produkt.photo;
-    document.querySelector(".h2_product2").textContent = "Årstal: " + produkt.year;
-    document.querySelector(".h2_product3").textContent = produkt.length;
-    document.querySelector(".p_product").textContent = produkt.description;
+    document.querySelector(".h2_product2").textContent = "Udgivelsesår: " + produkt.year;
+    document.querySelector(".h2_product3").textContent = "Længde: " + produkt.length;
+    document.querySelector(".h2_product4").textContent = "Platform: " + produkt.platform;
+    document.querySelector(".h2_product5").textContent = "Type: " + produkt.type;
+    document.querySelector(".p_product").textContent = "Beskrivelse: " + produkt.description;
     document.querySelector(".platformlink").href = produkt.link;
 
 }

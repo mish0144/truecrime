@@ -24,41 +24,71 @@ body {
     width: 100%;
 }
 
-.h1_product { 
+.h2_product { 
     font-family: American Typewriter;
     grid-column: 1/ span 2;
     grid-row: 1/ span 2;
     margin-left: 9%;
     margin-top: 5%;
-    font-size: 33px;
+    font-size: 1.2rem;
+
 }
 /* virker kun hvis jeg fjerner ting fra general css */
 
-.h2_product{
+.h1_product{
     grid-column: 3/ span 5;
     grid-row: 1;
+    font-family: American Typewriter;
     margin-top: 30%;
     margin-left: 20%;
+    margin-right: 2%;
+    margin-right: 8%;
+    font-size: 1.8rem;
+    
 }
 
 .h2_product2{
     grid-column: 3/ span 5;
     grid-row: 1;
-    margin-top: 40%;
+    margin-top: 50%;
     margin-left: 20%;
+    margin-right: 8%;
+    font-size: 1.2rem;
 }
 .h2_product3{
     grid-column: 3/ span 5;
     grid-row: 1;
-    margin-top: 50%;
+    margin-top: 57%;
     margin-left: 20%;
-}
+    margin-right: 8%;
+    font-size: 1.2rem;
+  }
 
-.mindhunter{
+  .h2_product4{
+    grid-column: 3/ span 5;
+    grid-row: 1;
+    margin-top: 64%;
+    margin-left: 20%;
+    margin-right: 8%;
+    font-size: 1.2rem;
+  }
+
+  .h2_product5{
+    grid-column: 3/ span 5;
+    grid-row: 1;
+    margin-top: 71%;
+    margin-left: 20%;
+    margin-right: 8%;
+    font-size: 1.2rem;
+  }
+
+
+.cover{
     grid-column: 1/ span 1;
     grid-row: 1/2;
     margin-top: 47%;
     margin-left: 28%;
+    margin-right: 8%;
     width: 200%;
 }
 
@@ -68,6 +98,8 @@ body {
     margin-left: 7%;
     margin-right: 7%;
     margin-top: 4%;
+    font-size: 1.1rem;
+    line-height: 1.7;
 }
 
 
@@ -76,8 +108,9 @@ body {
     grid-row: 1;
     font-weight: bold;
     color: black;
-    margin-top: 70%;
+    margin-top: 88%;
     margin-left: 20%;
+    font-size: 1.3rem;
 }
 
 @media only screen and (max-width: 600px) {
@@ -97,7 +130,7 @@ body {
         position: absolute;
     }
 
-    .mindhunter{
+    .cover{
         grid-column: 1/ span 3;
         grid-row: 1;
         margin-top: 10%;
