@@ -48,23 +48,30 @@ body {
 
 
   .smallProduct {
-    display: flex;
-    flex-direction: column;
     padding-left: 5%;
     padding-top: 5%;
     padding-bottom: 5%;
     padding-right: 15%;
     min-height: 418px;
-}
-
-
-
-  article {
-    display: flex;
-    flex-direction: column;
     background-image: url(img/file.webp);
     background-size: cover;
+}
+
+article a {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+article a :last-child {
+    margin-top: auto;
+    color: black;
+    font-size: 1.3rem;
+    font-weight: 600;
+    cursor: pointer;
   }
+
+
 
   
   article img {
