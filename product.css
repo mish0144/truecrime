@@ -114,6 +114,28 @@ body {
     font-size: 1.3rem;
 }
 
+
+.backbuttondiv {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.backbutton {
+    border: none;
+    text-align: center;
+    margin-right: 5%;
+    background-color: transparent;
+    color: whitesmoke;
+    font-family: American Typewriter;
+    text-decoration: underline;
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
 @media only screen and (max-width: 850px) {
     .grid_1-1-1-1{
         margin-left: 0%;
@@ -144,9 +166,13 @@ body {
         grid-column: 1 / span 4;
         grid-row: 1;
         margin-top: 50%;
-        margin-left: 18.5%;
         position: relative;
-    }
+        text-align: left;
+        margin-right: 25%;
+        font-size: 4vw;
+        margin-left: 19%;
+      }
+    
     
     .h2_product{
         display: none;
@@ -168,12 +194,13 @@ body {
     }
     
     .p_product{
-        grid-column: 1 / span 4;
         grid-row: 2;
-        margin-top: 3%;
-        margin-left: 18%;
-        margin-right: 18%;
+        margin-left: 19%;
+        margin-right: 25%;
         position: relative;
+        color: black;
+        font-size: 2.2vw;
+        margin-top: -37%;
     }
     
     .plink{
@@ -181,10 +208,17 @@ body {
         grid-row: 1;
         font-weight: bold;
         color: black;
-        margin-top: 86%;
+        margin-top: 118%;
         margin-left: 25%;
-        font-size: 1.7rem;
+        font-size: 4vw;
         position: relative;
     }
+
+
+    .backbuttondiv {
+        margin-bottom: 8%;
+    }
+
+
   }
 

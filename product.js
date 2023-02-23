@@ -22,15 +22,18 @@ function hentData() {
 
 function visProdukt(produkt) {
     document.querySelector(".h2_product").textContent = produkt.titel;
-    document.querySelector(".h1_product").textContent = "TITEL: " + produkt.titel;
+    document.querySelector(".h1_product").textContent = "Titel: " + produkt.titel;
     document.querySelector(".cover").src = "anbefalinger/" + produkt.photo;
-    document.querySelector(".h2_product2").textContent = "UDGIVELSESÅR: " + produkt.year;
-    document.querySelector(".h2_product3").textContent = "LÆNGDE: " + produkt.length;
-    document.querySelector(".h2_product4").textContent = "PLATFORM: " + produkt.platform;
-    document.querySelector(".h2_product5").textContent = "TYPE: " + produkt.type;
-    document.querySelector(".p_product").textContent = "BESKRIVELSE: " + produkt.description;
+    document.querySelector(".h2_product2").textContent = "Udgivelsesår: " + produkt.year;
+    document.querySelector(".h2_product3").textContent = "Længde: " + produkt.length;
+    document.querySelector(".h2_product4").textContent = "Platform: " + produkt.platform;
+    document.querySelector(".h2_product5").textContent = "Type: " + produkt.type;
+    document.querySelector(".p_product").textContent = "Beskrivelse: " + produkt.description;
     document.querySelector(".platformlink").href = produkt.link;
 
 }
 
 hentData();
+
+
+
