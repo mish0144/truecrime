@@ -1,10 +1,10 @@
 const urlParams = new URLSearchParams(window.location.search);
-const url = `https://truecrime-74a2.restdb.io/rest/truecrime`;
+const url = `https://truecrime-b8fd.restdb.io/rest/truecrime`;
 
 
 const options = { 
     headers: {
-        'x-apikey': "63f4c433478852088da68526"
+        'x-apikey': "63f72574478852088da6857d"
 
     }
 };
