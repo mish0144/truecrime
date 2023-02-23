@@ -57,14 +57,6 @@ body {
     min-height: 418px;
 }
 
-article :last-child {
-    margin-top: auto;
-    color: black;
-    font-size: 1.3rem;
-    text-decoration: underline;
-    font-weight: 600;
-    cursor: pointer;
-  }
 
 
   article {
