@@ -3,14 +3,23 @@ body {
   max-width: 1200px;
 }  
   
+
+@font-face {
+  font-family: HelveticaNarrow;
+  src: url(font/unicode.helvetin-webfont.woff2);
+}
+
+
   h1 {
     text-align: right;
     margin-right: 2%;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: HelveticaNarrow;
     color: white;
     font-size: 3rem;
     margin-bottom: 3%;
     font-weight: 100;
+    font-stretch: narrower;
+    letter-spacing: 0px;
   }
   
   h2 {
@@ -50,11 +59,14 @@ body {
 
 article :last-child {
     margin-top: auto;
+    color: black;
+    font-size: 1.3rem;
+    text-decoration: underline;
+    font-weight: 600;
+    cursor: pointer;
   }
 
 
-  
-  
   article {
     display: flex;
     flex-direction: column;
@@ -62,9 +74,6 @@ article :last-child {
     background-size: cover;
   }
 
-  article :last-child {
-    margin-top: auto;
-  }
   
   article img {
     width: 100%;
@@ -86,7 +95,7 @@ article :last-child {
     text-decoration: none;
   }
   
-  
+
   
   
 

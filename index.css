@@ -28,12 +28,12 @@ section{
 h2{
     font-family: American Typewriter;
     display: flex;
-    font-size: 2.5rem;
+    font-size: 3rem;
     color: whitesmoke;
 }
 
 p{
-    font-size: 1.4rem;
+    font-size: 2.3rem;
     color: whitesmoke;
     margin-top: 15px;
     margin-bottom: 10px;
@@ -46,7 +46,7 @@ a{
     font-family: American Typewriter;
     color: whitesmoke;
     font-size: 20px;
-
+    color: black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,7 +54,7 @@ a{
  
 
     border-radius: 30px;
-    background-color: grey;
+    background-color: yellow;
     opacity: 0.7;
     padding: 10px;
     text-decoration: none;
@@ -81,7 +81,7 @@ a{
 }
 
 a:hover{
-    font-size: 21px;
+    opacity: 1;
 }  
   
 
